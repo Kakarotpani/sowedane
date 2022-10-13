@@ -1,7 +1,9 @@
 # Finance Mobile App
 ### Flutter assignment for `SOWEDANE IT SOLUTIONS PVT LTD`
 
-![flutter](https://user-images.githubusercontent.com/59501811/195680225-16ebc8a6-e5bd-4d86-92e3-e2854513e46f.png)
+
+![flutter](https://user-images.githubusercontent.com/59501811/195680567-1fdfd454-27bf-4583-aab0-4f8b51bf6fbc.png)
+
 
 >```Flutter 3.0.5 ```
 
