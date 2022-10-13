@@ -88,3 +88,23 @@ class FormLabel extends StatelessWidget {
     );
   }
 }
+
+class ResultText extends StatelessWidget {
+  final String label;
+  const ResultText({Key? key, required this.label}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      padding: const EdgeInsets.only(left: 24),
+      alignment: Alignment.centerLeft,
+      child: Text(
+        label,
+        style: const TextStyle(
+          color: primaryTextColor,
+          fontSize: 14,
+        ),
+      ),
+    );
+  }
+}

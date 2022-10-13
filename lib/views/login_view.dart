@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sowedane/forms/login_form.dart';
+import 'package:sowedane/services/auth_service.dart';
 import 'package:sowedane/utils/colors/colors.dart';
 import 'package:sowedane/utils/widgets/buttons.dart';
 import 'package:sowedane/utils/widgets/text_widgets.dart';
@@ -100,7 +101,9 @@ class _LoginViewState extends State<LoginView> {
                               ),
                             ),
                             InkWell(
-                              onTap: (){},
+                              onTap: (){
+                                AuthService().signInWithGoogle();
+                              },
                               child: Image.asset(
                                 'assets/icons/google.png',
                                 scale: 5,
